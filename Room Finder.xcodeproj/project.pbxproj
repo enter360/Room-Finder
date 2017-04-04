@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2610821E7343690069E067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2610811E7343690069E067 /* AppDelegate.swift */; };
+		ED2610841E7343690069E067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2610831E7343690069E067 /* ViewController.swift */; };
+		ED2610871E7343690069E067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED2610851E7343690069E067 /* Main.storyboard */; };
+		ED26108A1E7343690069E067 /* Room_Finder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED2610881E7343690069E067 /* Room_Finder.xcdatamodeld */; };
+		ED26108C1E7343690069E067 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED26108B1E7343690069E067 /* Assets.xcassets */; };
+		ED26108F1E7343690069E067 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED26108D1E7343690069E067 /* LaunchScreen.storyboard */; };
+		EDA249F91E904325005BE56B /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA249F81E904325005BE56B /* libz.1.dylib */; };
+		EDA249FB1E904343005BE56B /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EDA249FA1E904343005BE56B /* libsqlite3.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		509B289DD183D4526D7B94F5 /* Pods-Room Finder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Room Finder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Room Finder/Pods-Room Finder.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F17CB164FF9F98C92F5E5C /* Pods_Room_Finder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Room_Finder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED26107E1E7343690069E067 /* Room Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Room Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2610811E7343690069E067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED2610831E7343690069E067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED2610861E7343690069E067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED2610891E7343690069E067 /* Room_Finder.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Room_Finder.xcdatamodel; sourceTree = "<group>"; };
+		ED26108B1E7343690069E067 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED26108E1E7343690069E067 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED2610901E7343690069E067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA249F61E9042A4005BE56B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EDA249F81E904325005BE56B /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		EDA249FA1E904343005BE56B /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		F782E94EED4A7EB7342B35AE /* Pods-Room Finder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Room Finder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Room Finder/Pods-Room Finder.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED26107B1E7343690069E067 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA249FB1E904343005BE56B /* libsqlite3.dylib in Frameworks */,
+				EDA249F91E904325005BE56B /* libz.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06BD4222A4BF5D3A359DC068 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				509B289DD183D4526D7B94F5 /* Pods-Room Finder.debug.xcconfig */,
+				F782E94EED4A7EB7342B35AE /* Pods-Room Finder.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED2610751E7343680069E067 = {
+			isa = PBXGroup;
+			children = (
+				ED2610801E7343690069E067 /* Room Finder */,
+				ED26107F1E7343690069E067 /* Products */,
+				EDA249F51E9042A4005BE56B /* Frameworks */,
+				06BD4222A4BF5D3A359DC068 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		ED26107F1E7343690069E067 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED26107E1E7343690069E067 /* Room Finder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED2610801E7343690069E067 /* Room Finder */ = {
+			isa = PBXGroup;
+			children = (
+				ED2610811E7343690069E067 /* AppDelegate.swift */,
+				ED2610831E7343690069E067 /* ViewController.swift */,
+				ED2610851E7343690069E067 /* Main.storyboard */,
+				ED26108B1E7343690069E067 /* Assets.xcassets */,
+				ED26108D1E7343690069E067 /* LaunchScreen.storyboard */,
+				ED2610901E7343690069E067 /* Info.plist */,
+				ED2610881E7343690069E067 /* Room_Finder.xcdatamodeld */,
+			);
+			path = "Room Finder";
+			sourceTree = "<group>";
+		};
+		EDA249F51E9042A4005BE56B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDA249FA1E904343005BE56B /* libsqlite3.dylib */,
+				EDA249F81E904325005BE56B /* libz.1.dylib */,
+				EDA249F61E9042A4005BE56B /* libsqlite3.tbd */,
+				E3F17CB164FF9F98C92F5E5C /* Pods_Room_Finder.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED26107D1E7343690069E067 /* Room Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED2610931E7343690069E067 /* Build configuration list for PBXNativeTarget "Room Finder" */;
+			buildPhases = (
+				8A06997AA1AA50EAD71694A3 /* [CP] Check Pods Manifest.lock */,
+				ED26107A1E7343690069E067 /* Sources */,
+				ED26107B1E7343690069E067 /* Frameworks */,
+				ED26107C1E7343690069E067 /* Resources */,
+				30A4D309346A62AD9B61E2C7 /* [CP] Embed Pods Frameworks */,
+				6666486FDECE07A91E634E4C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Room Finder";
+			productName = "Room Finder";
+			productReference = ED26107E1E7343690069E067 /* Room Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED2610761E7343680069E067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Corbin Black";
+				TargetAttributes = {
+					ED26107D1E7343690069E067 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED2610791E7343680069E067 /* Build configuration list for PBXProject "Room Finder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED2610751E7343680069E067;
+			productRefGroup = ED26107F1E7343690069E067 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED26107D1E7343690069E067 /* Room Finder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED26107C1E7343690069E067 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED26108F1E7343690069E067 /* LaunchScreen.storyboard in Resources */,
+				ED26108C1E7343690069E067 /* Assets.xcassets in Resources */,
+				ED2610871E7343690069E067 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30A4D309346A62AD9B61E2C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Room Finder/Pods-Room Finder-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6666486FDECE07A91E634E4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Room Finder/Pods-Room Finder-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A06997AA1AA50EAD71694A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED26107A1E7343690069E067 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2610841E7343690069E067 /* ViewController.swift in Sources */,
+				ED26108A1E7343690069E067 /* Room_Finder.xcdatamodeld in Sources */,
+				ED2610821E7343690069E067 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED2610851E7343690069E067 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED2610861E7343690069E067 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED26108D1E7343690069E067 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED26108E1E7343690069E067 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED2610911E7343690069E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2610921E7343690069E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED2610941E7343690069E067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 509B289DD183D4526D7B94F5 /* Pods-Room Finder.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Room\\ Finder",
+				);
+				INFOPLIST_FILE = "Room Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corbin-Black.Room-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Room Finder/Room_Finder-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED2610951E7343690069E067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F782E94EED4A7EB7342B35AE /* Pods-Room Finder.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Room\\ Finder",
+				);
+				INFOPLIST_FILE = "Room Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Corbin-Black.Room-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED2610791E7343680069E067 /* Build configuration list for PBXProject "Room Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2610911E7343690069E067 /* Debug */,
+				ED2610921E7343690069E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED2610931E7343690069E067 /* Build configuration list for PBXNativeTarget "Room Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2610941E7343690069E067 /* Debug */,
+				ED2610951E7343690069E067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED2610881E7343690069E067 /* Room_Finder.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED2610891E7343690069E067 /* Room_Finder.xcdatamodel */,
+			);
+			currentVersion = ED2610891E7343690069E067 /* Room_Finder.xcdatamodel */;
+			path = Room_Finder.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED2610761E7343680069E067 /* Project object */;
+}
